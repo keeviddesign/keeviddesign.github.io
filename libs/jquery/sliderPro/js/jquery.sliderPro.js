@@ -4145,7 +4145,8 @@
 				hasFocus = false;
 			});
 
-			$( document ).on( 'keydown.' + this.uniqueId + '.' + NS, function( event ) {
+			$( document ).on( 'keydown.' + this.uniqueId + '.' + NS, function( event ) { //cause error on jquery tabs(mod by KEEVID DESIGN)
+			//$('body').on( 'keydown.' + this.uniqueId + '.' + NS, function( event ) {
 				if ( that.settings.keyboardOnlyOnFocus === true && hasFocus === false ) {
 					return;
 				}
@@ -4158,7 +4159,8 @@
 				} else if ( event.which === 39 ) {
 					that.nextSlide();
 				} else if ( event.which === 13 ) {
-					that.$slider.find( '.sp-slide' ).eq( that.selectedSlideIndex ).find( '.sp-image-container a' )[0].click();
+					//that.$slider.find( '.sp-slide' ).eq( that.selectedSlideIndex ).find( '.sp-image-container a' )[0].click(); //cause error on jquery tabs(mod by KEEVID DESIGN)
+					that.$slider.find( '.sp-slide' ).eq( that.selectedSlideIndex ).find( '.sp-image-container a' ).first().click();
 				}
 			});
 		},
