@@ -19,6 +19,7 @@
   width: auto!important;
   max-width: 100%;
   height: auto!important;
+
 }
 .sp-image-container {
   text-align: center;
@@ -26,7 +27,12 @@
   background-color: #000;
   border-top: 1px solid #eee;
   max-width: 100%;
+
 }
+.sp-slides-container, .sp-slide, .sp-image-container{
+   max-height:700px;
+   
+  }
 .sp-next-arrow:after, .sp-next-arrow:before, .sp-previous-arrow:after, .sp-previous-arrow:before {
   background-color: #2FC4C6;
 }
