@@ -54,9 +54,10 @@ border-radius: 4px 4px 4px 4px !important;
 }
 .nav-tabs{margin-top:10px;}
 .nav-tabs.nav-justified>li>a {
-
+border-bottom: 0;
 margin-bottom:0;
 }
+
 .nav-tabs.nav-justified>.active>a, .nav-tabs.nav-justified>.active>a:focus, .nav-tabs.nav-justified>.active>a:hover
 {border:transparent;
 margin-bottom:0;}
@@ -68,8 +69,12 @@ padding-left:0;}
 .logo-header{ 
   height:50px;
 }
+/*
+* Tabs
+*/
 
-
+.tab-pane
+{max-width:100% !important; }
 
 /*
 * home

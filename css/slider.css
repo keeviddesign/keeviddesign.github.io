@@ -14,10 +14,8 @@
   margin-left: 0 !important;
 }
 .sp-image {
-  margin-left: auto !important;
-  margin-right: auto !important;
-  margin-top: auto !important;
-  margin-bottom: auto !important;
+  margin: auto !important;
+
   width: auto!important;
   max-width: 100%;
   height: auto!important;
@@ -25,7 +23,7 @@
 .sp-image-container {
   text-align: center;
   vertical-align: center;
-  background-color: #333385;
+  background-color: #000;
   border-top: 1px solid #eee;
   max-width: 100%;
 }
