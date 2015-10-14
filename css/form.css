@@ -4,7 +4,7 @@
 #mc_embed_signup {
     background: #fff;
     clear: left;
-    font: 14px Helvetica,Arial,sans-serif;
+    font: 1.8em;
 }
 
 
@@ -24,7 +24,6 @@
         font-size: 1.6em;
         position: absolute;
         top: 0;
-        font-family: helvetica-w01-bold, helvetica-w02-bold, helvetica-lt-w10-bold, sans-serif;
     }
 
     #mc_embed_signup input {

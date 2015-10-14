@@ -17,12 +17,14 @@ body {
 /*
  * header menu
  */
+.en .header-menu {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+}
 
 .header-menu {
     border-color: transparent;
     margin-bottom: 0;
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 700;
 }
 
     .header-menu a {
@@ -80,6 +82,15 @@ body {
 
 .logo-header {
     height: 50px;
+}
+
+.lang-switcher {
+    display: block;
+    float: right;
+    padding: 0 0 5px 15px;
+    font-weight: normal;
+    font-size: 0.9em;
+    color: #808080;
 }
 /*
 * Tabs
@@ -142,12 +153,15 @@ body {
     padding: 20px 30px;
 }
 
-.contents-subtitle {
+.en .contents-subtitle {
     font-family: 'Raleway', sans-serif;
 }
 
+
+
 .contents-subtitle-common {
     color: #555555;
+    font-weight: bold;
 }
 
 .contents-title {
