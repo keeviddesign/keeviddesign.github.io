@@ -212,7 +212,7 @@ footer nav ul li:hover a {
 	margin-left: 0px;
 	box-sizing: border-box;
 }
-.services_column ul {
+.services_column ul, .services_column h3 {
 	text-align: left;
 }
 .services_column h4 {
@@ -230,6 +230,7 @@ footer nav ul li:hover a {
 }
 .services_small_header {
 	font-weight: bold;
+	text-align: left;
 }
 /* Works Section */
 .gallery {
@@ -510,9 +511,6 @@ footer nav ul li:hover a {
 .services_column {
 	width: 100%;
 }
-.services_small_header {
-	text-align: left;
-}
 .footer_column {
 	width: 100%;
 	margin-top: 0px;
@@ -540,6 +538,9 @@ footer nav ul li:hover a {
 @media (min-width: 321px)and (max-width: 767px) {
 .line_break {
 	display: inline;
+}
+.sub_section_header {
+	font-size: 1.3em;
 }
 .home {
 	background-position: 55% 50%;
