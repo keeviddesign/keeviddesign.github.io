@@ -22,6 +22,9 @@ body {
 h2, h3 {
 	font-weight: bold;
 }
+.line_break {
+	display: none;
+}
 /* Container */
 .container {
 	width: 100%;
@@ -185,6 +188,8 @@ footer nav ul li:hover a {
 .sub_section_header {
 	color: #FF8F02;
 	margin-bottom: 5px;
+	overflow-wrap: break-word;
+	word-wrap: break-word;
 }
 .services_row {
 	clear: both;
@@ -423,6 +428,16 @@ footer {
 
 /*==========Mobile==========*/
 @media (max-width: 320px) {
+.line_break {
+	display: inline;
+}
+.sub_section_header {
+	text-align: left;
+	font-size: 1.3em;
+}
+.services_column h3 {
+	text-align: left;
+}
 .home {
 	background-position: 60% 0%;
 }
@@ -517,6 +532,9 @@ footer nav ul li:hover a {
 
 /*==========Small Tablets==========*/
 @media (min-width: 321px)and (max-width: 767px) {
+.line_break {
+	display: inline;
+}
 .home {
 	background-position: 55% 50%;
 }
