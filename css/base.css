@@ -456,6 +456,10 @@ footer {
 .lang {
 	top: 50px;
 }
+.lang li {
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
 nav {
 	margin-top: 0px;
 	margin-right: 0px;
@@ -541,6 +545,7 @@ footer nav ul li:hover a {
 }
 .home {
 	background-position: 55% 50%;
+	padding-top: 230px;
 }
 .logo {
 	width: 100%;
@@ -612,9 +617,6 @@ footer nav ul li:hover a {
 .footer_column {
 	width: 100%;
 	margin-top: 0px;
-}
-.home {
-	padding-top: 230px;
 }
 .banner {
 	padding-left: 20px;
