@@ -536,9 +536,6 @@ footer nav ul li:hover a {
 
 /*==========Small Tablets==========*/
 @media (min-width: 321px)and (max-width: 767px) {
-.line_break {
-	display: inline;
-}
 .sub_section_header {
 	font-size: 1.3em;
 }
