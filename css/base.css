@@ -434,6 +434,9 @@ footer {
 	margin-bottom: 0px;
 	margin-left: 0px;
 }
+.lang {
+	top: 50px;
+}
 nav {
 	margin-top: 0px;
 	margin-right: 0px;
@@ -519,7 +522,6 @@ footer nav ul li:hover a {
 }
 .logo {
 	width: 100%;
-	text-align: center;
 	margin-top: 0px;
 	margin-right: 0px;
 	margin-bottom: 0px;
