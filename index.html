@@ -13,7 +13,7 @@
 </head>
 <body>
 <!-- Main Container -->
-<div class="container"> 
+<posi class="container"> 
   <!-- Navigation -->
   <header>
     <div class="logo"><a href="#home"> <img src="img/logo.png" alt="KEEVID DESIGN"/> </a></div>
@@ -21,16 +21,27 @@
       <li>English<span class="triangle"></span></li>
       <li class="unselected_lang"><a href="jp.html">日本語</a></li>
     </ul>
-    <nav>
+    <nav class="header_nav">
       <ul>
-        <li><a href="#home">HOME</a></li>
-        <li><a href="#services">SERVICES</a></li>
-        <li><a href="#about">ABOUT</a></li>
-        <li><a href="#works">WORKS</a></li>
-        <li> <a href="#contact">CONTACT</a></li>
+        <li><a href="#home">
+          <div class="nav_home"><span class="nav_text">HOME</span></div>
+          </a></li>
+        <li><a href="#services">
+          <div class="nav_services"><span class="nav_text">SERVICES</span></div>
+          </a></li>
+        <li><a href="#works">
+          <div class="nav_works"><span class="nav_text">WORKS</span></div>
+          </a></li>
+        <li><a href="#about">
+          <div class="nav_about"><span class="nav_text">ABOUT</span></div>
+          </a></li>
+        <li><a href="#contact">
+          <div class="nav_contact"><span class="nav_text">CONTACT</span></div>
+          </a></li>
       </ul>
     </nav>
   </header>
+  
   <!-- Home Section -->
   <section class="home" id="home"> <img src="img/logo.png" alt="KEEVID DESIGN" class="home_logo"/>
     <h2 class="home_header home_copy">KEEVID DESIGN PROVIDES <br>
@@ -41,8 +52,8 @@
       U.S.A. </p>
   </section>
   <!-- Services Section -->
-  <section class="services" id="services">
-    <h1 class="section_header">SERVICES</h1>
+  <section class="services section_container" id="services">
+    <h1 class="section_header"><img src="img/icons/services.png" alt="services">SERVICES</h1>
     <div class="services_row">
       <div class="services_column"> <img src="img/core.png" alt="Illustrations/Graphic Design">
         <h2 class="sub_section_header"> Illustrations / Graphic Design </h2>
@@ -88,8 +99,8 @@
   </section>
   <!-- Works Section -->
   
-  <section class="works" id="works">
-    <h1 class="section_header">WORKS</h1>
+  <section class="works section_container" id="works">
+    <h1 class="section_header"><img src="img/icons/works.png" alt="works">WORKS</h1>
     <div class="gallery">
       <div class="gallery_wrapper">
         <div class="gallery_square">
@@ -160,7 +171,7 @@
   <!-- About Section -->
   <section class="about" id="about">
     <div class="about_wrapper">
-      <h1 class="section_header">ABOUT</h1>
+      <h1 class="section_header"><img src="img/icons/about.png" alt="about">ABOUT</h1>
       <div class="text_column">
         <p> KEEVID DESIGN is a sole proprietorship established in 2015.</p>
         <p><b>Location:</b> Chicago, Illinois U.S.A.</p>
@@ -186,25 +197,35 @@
     <h3 class="home_header">GET IN CONTACT WITH KEEVID DESIGN</h3>
     <p>Thank you for your interest in KEEVID DESIGN! <br>
       Please feel free to contact us if you have any further questions or concerns.</p>
-    <span class= "address_title">E-Mail Address:</span>
+    <span class= "address_title"><img src="img/icons/contact3.png" alt="contact">E-Mail Address:</span>
     <div id = "contact_content" class="mail"></div>
   </section>
   <!-- Footer Section -->
+  <div class="footer_info"> <img  class="footer_logo" src="img/logo.png" alt="KEEVID DESIGN">
+    <div class="copyright">&copy;2016 - <strong>KEEVID DESIGN</strong></div>
+  </div>
   <footer>
-    <nav>
+    <nav class="footer_nav">
       <ul>
-        <li><a href="#home">HOME</a></li>
-        <li><a href="#services">SERVICES</a></li>
-        <li><a href="#about">ABOUT</a></li>
-        <li><a href="#works">WORKS</a></li>
-        <li> <a href="#contact">CONTACT</a></li>
+        <li><a href="#home">
+          <div class="nav_home"><span class="nav_text">HOME</span></div>
+          </a></li>
+        <li><a href="#services">
+          <div class="nav_services"><span class="nav_text">SERVICES</span></div>
+          </a></li>
+        <li><a href="#works">
+          <div class="nav_works"><span class="nav_text">WORKS</span></div>
+          </a></li>
+        <li><a href="#about">
+          <div class="nav_about"><span class="nav_text">ABOUT</span></div>
+          </a></li>
+        <li> <a href="#contact">
+          <div class="nav_contact"><span class="nav_text">CONTACT</span></div>
+          </a></li>
       </ul>
     </nav>
-    <div class="footer_info"> <img  class="footer_logo" src="img/logo.png" alt="KEEVID DESIGN">
-      <div class="copyright">&copy;2016 - <strong>KEEVID DESIGN</strong></div>
-    </div>
   </footer>
-</div>
+</posi>
 <!-- Main Container Ends -->
 </body>
 </html>
