@@ -497,11 +497,6 @@ footer {
 	margin-bottom: 0px;
 	color: #ffffff;
 }
-.contact img {
-	margin-right: 5px;
-	margin-bottom: 0;
-	height: 20px;
-}
 .hidden {
 	display: none;
 }
@@ -511,6 +506,14 @@ footer {
 	padding-right: 15px;
 	word-wrap: break-word;
 	white-space: nowrap;
+	vertical-align: top;
+	display: inline-block;
+}
+.address_title img {
+	margin-right: 5px;
+	margin-bottom: 0;
+	height: 20px;
+	display: inline-block;
 }
 .footer_info {
 	display: inline-block;
