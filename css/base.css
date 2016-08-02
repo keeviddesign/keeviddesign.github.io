@@ -517,11 +517,14 @@ footer {
  *display:inline;
 	zoom: 1;
 	margin: 0;
-	padding: 0;
+	padding: 0 20px 0 0;
 	box-sizing: border-box;
 	vertical-align: middle;
 	background-color: #1BCCE1;
 	width: 100%;
+	text-align: center;
+	padding-right: 5%;
+	padding-left: 5%;
 }
 .copyright {
 	text-align: right;
@@ -533,22 +536,19 @@ footer {
 	border-top-width: 2px;
 	display: inline-block;
 	vertical-align: middle;
-	padding-left: 40px;
-	padding-right: 25px;
 	padding-top: 15px;
 	padding-bottom: 15px;
 	box-sizing: border-box;
-	float: right;
+	color: #efefef;
 }
 .footer_logo {
 	height: 40px;
 	padding-top: 4px;
-	padding-right: 20px;
 	margin: 0;
-	float: right;
 	display: inline-block;
 	box-sizing: border-box;
 	vertical-align: middle;
+	box-ordinal-group: 1;
 }
 .footer_logo img {
 	height: 40px;
@@ -595,6 +595,16 @@ footer {
 header {
 	display: none;
 }
+.tagline {
+	margin-top: 20px;
+	line-height: 22px;
+}
+.top_header {
+	padding-left: 10px;
+	padding-right: 10px;
+	line-height: 22px;
+	text-align: center;
+}
 footer {
 	display: block;
 	position: fixed;
@@ -614,10 +624,6 @@ footer {
 	letter-spacing: 1px;
 	font-size: 10px
 }
-.footer_info {
-	position: relative;
-	margin-bottom: 50px;
-}
 .gallery_wrapper {
 	width: 100%;
 }
@@ -628,22 +634,20 @@ footer {
 	width: 100%;
 	margin-top: 0px;
 }
-.banner {
-	background-color: #2D9AB7;
-	background-image: none;
+.footer_logo {
+	padding: 0;
+	margin: auto auto 10px auto;
+	float: none;
 }
-.tagline {
-	margin-top: 20px;
-	line-height: 22px;
-}
-.top_header {
-	padding-left: 10px;
-	padding-right: 10px;
-	line-height: 22px;
-	text-align: center;
+.footer_info {
+	margin: 0 auto 50px auto;
+	padding: 0;
 }
 .copyright {
 	width: 100%;
+	text-align: center;
+	margin: auto;
+	float: none;
 }
 }
 
@@ -693,13 +697,19 @@ footer {
 	font-size: 10px
 }
 .footer_info {
-	margin: 0 0 50px 0;
+	margin: 0 auto 50px auto;
 	padding: 0;
+}
+.copyright {
+	text-align: center;
+	margin: auto;
+	float: none;
 }
 .footer_logo {
 	padding-top: 2px;
-	padding-bottom: 0;
+	padding-bottom: 2px;
 	margin: 0;
+	float: none;
 }
 .footer_column {
 	width: 100%;
