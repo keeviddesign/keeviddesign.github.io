@@ -241,7 +241,7 @@ header {
 	text-align: right;
 	padding: 0;
 	right: 0;
-	position: absolute;
+	position: fixed;
 	z-index: 9999;
 }
 .lang a {
@@ -301,7 +301,6 @@ header {
 	letter-spacing: 1px;
 }
 /* Service Section */
-
 .sub_section_header {
 	color: #FF8F02;
 	margin-bottom: 5px;
@@ -497,9 +496,6 @@ footer {
 	margin-bottom: 0px;
 	color: #ffffff;
 }
-.hidden {
-	display: none;
-}
 .address_title {
 	font-size: smaller;
 	color: #cccccc;
@@ -587,6 +583,7 @@ footer {
 }
 .lang {
 	top: 10px;
+	position: absolute;
 }
 .lang li {
 	padding-top: 3px;
@@ -677,6 +674,9 @@ header {
 }
 .header_nav {
 	display: none;
+}
+.lang {
+	position: absolute;
 }
 footer {
 	position: fixed;
