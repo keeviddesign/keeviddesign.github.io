@@ -484,7 +484,7 @@ footer {
 	margin: 0;
 	padding: 0;
 	letter-spacing: normal;
-	background-color: #329603;
+	background-color: #4DAA42;
 	vertical-align: bottom;
 	display: none;
 	height: 50px;
@@ -539,7 +539,6 @@ footer {
 	padding-top: 15px;
 	padding-bottom: 15px;
 	box-sizing: border-box;
-	color: #efefef;
 }
 .footer_logo {
 	height: 40px;
