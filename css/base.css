@@ -408,7 +408,7 @@ header {
 	top: 0;
 }
 .gallery_image img {
-	background-color: #FFFE60;
+
 	vertical-align: middle;
 	width: 100%;
 	height: auto;
@@ -420,6 +420,12 @@ header {
 	top: 50%;
 	bottom: 50%;
 	overflow: hidden;
+}
+.gallery_image_yellow{
+		background-color: #FFFE60;
+}
+.gallery_image_white{
+		background-color: #FFFFFF;
 }
 .gallery_description {
 	position: absolute;
