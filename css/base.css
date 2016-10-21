@@ -427,6 +427,9 @@ header {
 .gallery_image_white{
 		background-color: #FFFFFF;
 }
+.gallery_image_red{
+	background-color: #FF2F32;
+	}
 .gallery_description {
 	position: absolute;
 	bottom: 0;
